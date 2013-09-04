@@ -1,0 +1,43 @@
+{
+    "main":"public/javascripts/dropmysite.js",
+    "name":"Dropmysite",
+    "description": "Safeguard your website & database now with our automatic backups and website monitor",
+    "version": "0.0.1",
+    "category": "Website Backup",
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "10GB",
+                "price": "19.99"
+            },
+            {
+                "name" : "30GB",
+                "price" : "49.99"
+            },
+            {
+                "name" : "60GB",
+                "price" : "89.99"
+            },
+            {
+                "name" : "100GB",
+                "price" : "149.99"
+            }
+        ]
+    },
+    "config":{
+        "details":{
+            "Category": "Website Backup",
+            "Language": "English",
+            "Price": "<b>10GB</b> $19.99/Year. <b>30GB</b> $49.99/Year. <b>60GB</b> $89.99/year. <b>100GB</b> $149.99/Year",
+            "Restrictions": "N/A",
+            "CloudFlare": "<a href='https://www.dropmysite.com/en/terms' target='_blank'>Terms of use</a>"
+        },
+        "assets":{
+            "logos" : {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            }
+        }
+    }
+}
