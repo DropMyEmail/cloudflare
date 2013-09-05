@@ -7,7 +7,7 @@
     "config":{
         "details":{
             "Language": "English",
-            "Price": "<b>10GB</b> $19.99/Year. <b>30GB</b> $49.99/Year. <b>60GB</b> $89.99/year. <b>100GB</b> $149.99/Year",
+            "Price": "<b>10GB</b> $19.99/Year.<br> <b>30GB</b> $49.99/Year.<br> <b>60GB</b> $89.99/year.<br> <b>100GB</b> $149.99/Year",
             "Restrictions": "None",
             "TOS": "<a href='https://www.dropmysite.com/en/terms' target='_blank'>Terms of use</a>",
             "has_js": false
