@@ -1,9 +1,24 @@
 {
-    "main":"public/javascripts/dropmysite.js",
     "name":"Dropmysite",
     "description": "Safeguard your website & database now with our automatic backups and website monitor",
     "version": "0.0.2",
     "category": "Website Backup",
+    "main":"public/javascripts/dropmysite.js",
+    "config":{
+        "details":{
+            "Language": "English",
+            "Price": "<b>10GB</b> $19.99/Year. <b>30GB</b> $49.99/Year. <b>60GB</b> $89.99/year. <b>100GB</b> $149.99/Year",
+            "Restrictions": "None",
+            "TOS": "<a href='https://www.dropmysite.com/en/terms' target='_blank'>Terms of use</a>",
+            "has_js": false
+        },
+        "assets":{
+            "logos" : {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            }
+        }
+    },
     "billing": {
         "type": "zone",
         "plans":[
@@ -24,21 +39,5 @@
                 "price" : "149.99"
             }
         ]
-    },
-    "config":{
-        "details":{
-            "Category": "Website Backup",
-            "Language": "English",
-            "Price": "<b>10GB</b> $19.99/Year. <b>30GB</b> $49.99/Year. <b>60GB</b> $89.99/year. <b>100GB</b> $149.99/Year",
-            "Restrictions": "N/A",
-            "TOS": "<a href='https://www.dropmysite.com/en/terms' target='_blank'>Terms of use</a>",
-            "has_js": false
-        },
-        "assets":{
-            "logos" : {
-                "200px": "./public/images/logo-200.png",
-                "132px": "./public/images/logo-132.png"
-            }
-        }
     }
 }
