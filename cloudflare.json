@@ -1,7 +1,7 @@
 {
     "name":"Dropmysite",
     "description": "Safeguard your website & database now with our automatic backups and website monitor",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "category": "Website Backup",
     "main":"public/javascripts/dropmysite.js",
     "config":{
